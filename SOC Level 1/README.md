@@ -1,0 +1,49 @@
+# Blue Team Introduction
+
+Humans as Attack Vectors :
+Nesse path vamos aprender como e porque humanos são alvos de attacks ciberneticos.
+
+# the human element
+Foi dito que o elo mais fraco da seguraça cibernética são aqueles que ajudam os agentes de ameaça.
+
+# Why Humans Are Targeted
+Porque eles podem da acesso a websites, datacente, caixa de emails e acesso a áreas não autorizadas. "Humans are targeted because of the access they can provide"
+
+# Defending Humans
+A melhor maneira de defender a parte humano da empresa e treinar os funcionarios a ter diciplina e como reconhecer oq e phishing e também usar Anti-phishing, ter um bom antivirus e manter sempre a equipe treinada para certas situações.
+
+"Trust but verify"
+<img width="2347" height="310" alt="image" src="https://github.com/user-attachments/assets/3994375b-7a9d-4f83-8d46-477066deb2b4" />
+
+
+# Systems as Attack Vectors
+
+* Learn the role of a system in a modern digital world
+* Explore a variety of real-world attacks targeting systems
+* Practice the acquired knowledge in two realistic scenarios
+
+# Definition of System
+Um bom exemplo e do castelo onde o garda sabe oq e phishing e também deepfake, mas nada disso importa se a fechadura do portão for fragil. ele pode facilmente entrar quando não tiver monitorando.
+
+# Attacks on Systems
+Treis exemplos de attacks on systems:
+
+* Human-Led Attacks
+* Vulnerabilities
+* Supply chain
+
+# Misconfigurations
+Não são erros de software ou bug mas sim erro na configuração do sistema. geralmente cometido pela equipe de IT.
+
+# Events and Alerts
+
+* SOC L1 analysts:  Review the alerts, distinguish bad from good, and notify L2 analysts in case of a real threat
+* SOC L2 analysts:  Receive the alerts escalated by L1 analysts and perform deeper analysis and remediation
+* SOC engineers:  Ensure the alerts contain enough information required for efficient alert triage
+* SOC manager:  Track speed and quality of alert triage to ensure that real attacks won't be missed
+
+# Alert Triage
+
+<img width="1210" height="450" alt="image" src="https://github.com/user-attachments/assets/44e0ce21-595e-445b-ad87-2e0545daef29" />
+
+
