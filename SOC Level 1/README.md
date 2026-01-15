@@ -46,4 +46,8 @@ Não são erros de software ou bug mas sim erro na configuração do sistema. ge
 
 <img width="1210" height="450" alt="image" src="https://github.com/user-attachments/assets/44e0ce21-595e-445b-ad87-2e0545daef29" />
 
+# SOC Workbooks and Lookups
 
+Workbook basicamento e um guia/livro que ajuda pessoas mais iniciantes a entender melhor como distinguir os alertas.
+
+SOAR = (Security Orchestration, Automation, and Response) é uma categoria de ferramentas de cibersegurança que centraliza, automatiza e orquestra a resposta a incidentes de segurança.
