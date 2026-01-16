@@ -51,3 +51,19 @@ Não são erros de software ou bug mas sim erro na configuração do sistema. ge
 Workbook basicamento e um guia/livro que ajuda pessoas mais iniciantes a entender melhor como distinguir os alertas.
 
 SOAR = (Security Orchestration, Automation, and Response) é uma categoria de ferramentas de cibersegurança que centraliza, automatiza e orquestra a resposta a incidentes de segurança.
+
+# Introduction to EDR
+
+* Execução e término de processos:
+Ele monitora todos os processos em execução e ociosos, o que ajuda a identificar relações suspeitas entre processos pai e filho, executáveis ​​suspeitos que iniciam um processo, cargas maliciosas, etc.
+
+* Conexões de rede:
+ Todas as conexões de rede dos endpoints são monitoradas, o que ajuda a identificar qualquer conexão com um servidor C2 , uso incomum de portas, exfiltração de dados ou movimentação lateral dentro da rede.
+
+* Atividade da Linha de Comando: Captura todos os comandos executados nos endpoints em CMD, PowerShell , etc., o que ajuda a identificar a execução de comandos maliciosos e scripts PowerShell ofuscados , que geralmente passam despercebidos por antivírus tradicionais.
+
+* Modificações de Arquivos e Pastas:
+Os agentes de ameaças modificam diferentes arquivos e pastas durante a preparação de dados, a execução de ransomware e a instalação de arquivos maliciosos. O EDR monitora essas atividades.
+
+* Modificações no Registro
+O registro é uma mina de ouro de informações sobre as configurações de um sistema Windows. Muitas modificações no registro ocorrem durante uma atividade maliciosa, e a maioria delas é monitorada pelo EDR .
