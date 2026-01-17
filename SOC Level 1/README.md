@@ -67,3 +67,52 @@ Os agentes de ameaças modificam diferentes arquivos e pastas durante a prepara�
 
 * Modificações no Registro
 O registro é uma mina de ouro de informações sobre as configurações de um sistema Windows. Muitas modificações no registro ocorrem durante uma atividade maliciosa, e a maioria delas é monitorada pelo EDR .
+
+# Splunk: The Basics
+
+Splunk has three main components: Forwarder, Indexer, and Search Head.
+
+* Pesquisa (index=* NOT "france")
+
+
+# Resumo KQL Overview (Task 5)
+
+
+O KQL permite filtrar logs de forma simples ou complexa usando campos e valores.
+
+1. Busca por Termo Livre (Free Text Search)
+Se você digitar apenas uma palavra na barra de busca, o Kibana procurará essa palavra em todos os campos de todos os logs.
+
+Exemplo: France (retorna qualquer log que mencione a França em qualquer lugar).
+
+2. Busca por Campo Específico (Field Search)
+É a forma mais eficiente de pesquisar. Você define o nome do campo, seguido de dois pontos e o valor.
+
+Sintaxe: nome_do_campo : "valor".
+
+Exemplo: Source_Country : "France".
+
+3. Operadores Lógicos (Booleans)
+Para refinar sua investigação, você combina termos usando operadores:
+
+AND (E): Retorna logs que atendem a todas as condições ao mesmo tempo.
+
+Exemplo: Source_Country : "France" AND UserName : "James".
+
+OR (OU): Retorna logs que atendem a pelo menos uma das condições.
+
+Exemplo: Source_Country : "France" OR Source_Country : "Brazil".
+
+NOT (NÃO): Exclui termos específicos dos seus resultados.
+
+Exemplo: Source_Country : "France" AND NOT UserName : "James".
+
+4. Uso de Curingas (Wildcards)
+O símbolo asterisco (*) serve para buscar variações de uma palavra.
+
+Exemplo: UserName : Jam* encontrará "James", "Jamile", "Jamal", etc.
+
+Dica Visual para o TryHackMe:
+No laboratório, você verá que pode adicionar esses filtros clicando nos botões + e - diretamente nos campos da barra lateral (Available Fields), o que gera a query KQL automaticamente para você no topo da tela.
+
+Esse resumo ajudou a clarear como montar as pesquisas? Se quiser, podemos praticar a busca para a pergunta da "Emanda" usando essa lógica de campos!
