@@ -115,4 +115,18 @@ Exemplo: UserName : Jam* encontrará "James", "Jamile", "Jamal", etc.
 Dica Visual para o TryHackMe:
 No laboratório, você verá que pode adicionar esses filtros clicando nos botões + e - diretamente nos campos da barra lateral (Available Fields), o que gera a query KQL automaticamente para você no topo da tela.
 
-Esse resumo ajudou a clarear como montar as pesquisas? Se quiser, podemos praticar a busca para a pergunta da "Emanda" usando essa lógica de campos!
+# Fundamentos da Análise de Phishing
+
+Os diferentes tipos de e-mails maliciosos podem ser classificados em uma das seguintes categorias:
+
+* Spam - e-mails indesejados enviados em massa para um grande número de destinatários. A variante mais maliciosa do spam é conhecida como malspam .
+
+* Phishing -  e-mails enviados a um ou mais alvos, fingindo ser de uma entidade confiável, com o objetivo de induzir indivíduos a fornecer informações confidenciais. 
+ O  spear phishing leva o phishing um passo adiante, visando um indivíduo ou organização específica em busca de informações confidenciais.  
+
+* Whaling  é semelhante ao spear phishing , mas tem como alvo específico indivíduos de alto escalão (CEO, CFO, etc.) e o objetivo é o mesmo. 
+
+* Smishing - leva o phishing para dispositivos móveis, visando usuários de celulares com mensagens de texto especialmente elaboradas. 
+
+* Vishing  é semelhante ao smishing, mas em vez de usar mensagens de texto para o ataque de engenharia social , os ataques são baseados em chamadas de voz. 
+
